@@ -126,8 +126,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `usuario`, `contrasena`) VALUES
-(1, 'Cristian David', 'Ramirez Callejas', 'cdramirez', '25d55ad283aa400af464c76d713c07ad'),
-(2, 'Usuario', 'Admin', 'admin', '25d55ad283aa400af464c76d713c07ad');
+(1, 'Cristian David', 'Ramirez Callejas', 'cdramirez', '8182bbea6467267b1aaa9e3c336c4c64'),
+(2, 'Usuario', 'Admin', 'admin', '8182bbea6467267b1aaa9e3c336c4c64');
 
 --
 -- Índices para tablas volcadas
