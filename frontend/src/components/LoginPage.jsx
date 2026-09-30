@@ -289,10 +289,9 @@ const LoginPage = () => {
               <p className="text-sm text-gray-700">Solo introducir: <span className="font-mono text-[#cf152d] font-bold">12345678</span></p>
             </div>
           </div>
-            <div className="bg-blue-50 border-l-4 border-blue-400 p-4 space-y-2">
-              <p className="text-sm text-blue-800"><strong>En caso de inconvenientes</strong>, dirígete al área de Soporte ubicada en el <strong>Tercer Piso</strong></p>
+            <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
               <p className="text-sm text-blue-800">
-                O también puedes enviar un correo con tus datos a{' '}
+                <strong>En caso de inconvenientes</strong>, puedes enviar un correo con tus datos a{' '}
                 <a href="mailto:cristian25ramirezrc@gmail.com" className="font-semibold underline hover:text-blue-900 transition-colors">
                   cristian25ramirezrc@gmail.com
                 </a>
