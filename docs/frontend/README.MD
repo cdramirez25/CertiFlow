@@ -43,20 +43,20 @@ Define las dependencias y scripts del proyecto. Stack principal:
 
 | Paquete              | Versión   | Uso                                                    |
 |----------------------|-----------|--------------------------------------------------------|
-| `astro`              | ^5.16.3   | Framework principal (SSR + páginas)                    |
-| `@astrojs/react`     | ^4.4.2    | Integración de React en Astro                          |
-| `react`              | ^19.2.0   | Librería de UI                                         |
-| `tailwindcss`        | ^4.1.17   | Estilos utilitarios                                    |
-| `@tailwindcss/vite`  | ^4.1.17   | Plugin de Tailwind para Vite                           |
-| `lucide-react`       | ^0.555.0  | Íconos                                                 |
-| `sonner`             | ^2.0.7    | Notificaciones toast                                   |
+| `astro`              | ^7.3.5    | Framework principal (SSR + páginas)                    |
+| `@astrojs/react`     | ^7.0.0    | Integración de React en Astro                          |
+| `react`              | ^19.3.0   | Librería de UI                                         |
+| `tailwindcss`        | ^4.3.3    | Estilos utilitarios                                    |
+| `@tailwindcss/vite`  | ^4.3.3    | Plugin de Tailwind para Vite                           |
+| `lucide-react`       | ^1.49.0   | Íconos                                                 |
+| `sonner`             | ^2.0.8    | Notificaciones toast                                   |
 | `xlsx`               | ^0.18.5   | Generación de archivos Excel (.xlsx) en el navegador   |
 
 **Scripts disponibles:**
 ```bash
-npm run dev      # Servidor de desarrollo
-npm run build    # Build de producción
-npm run preview  # Vista previa del build
+pnpm dev         # Servidor de desarrollo
+pnpm build       # Build de producción
+pnpm preview     # Vista previa del build
 ```
 
 ---

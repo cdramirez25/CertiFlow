@@ -142,7 +142,7 @@ docker compose up -d
 
 # Terminal 2 — Frontend Astro
 cd frontend
-npm run dev
+pnpm dev
 ```
 
 ---

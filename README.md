@@ -67,6 +67,7 @@ CertiFlow-proyecto/
 ### Prerrequisitos
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Node.js](https://nodejs.org/) (para el frontend)
+- [pnpm](https://pnpm.io/installation) (gestor de paquetes del frontend; con Node ya incluido puedes activarlo con `corepack enable`)
 
 ### 1. Clonar el repositorio
 ```bash
@@ -108,8 +109,8 @@ docker compose run --rm php composer install -d /var/www/html/certiflow/backend/
 ### 6. Levantar el frontend
 ```bash
 cd frontend
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 ### 7. Verificar servicios
