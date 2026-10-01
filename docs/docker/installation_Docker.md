@@ -86,8 +86,8 @@ DB_PASS=
 
 ### 1. Obtener el proyecto
 ```bash
-git clone https://github.com/CristianRC7/CertiFlow.git
-cd certiflow
+git clone https://github.com/cdramirez25/CertiFlow.git
+cd CertiFlow
 ```
 O descomprime el ZIP en cualquier carpeta de tu PC.
 
